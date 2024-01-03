@@ -1,8 +1,8 @@
-const socket = io('/')
+const socket = io('imingle.onrender.com')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: '/',
-  port: '3001'
+  host: 'imingle.onrender.com',
+  port: '8000'
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
