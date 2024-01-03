@@ -23,7 +23,7 @@ const user = prompt("Enter your name");
 
 var peer = new Peer({
   host: 'https://imingle.onrender.com',
-  port: 8000,
+  port: 443,
   path: '/peerjs',
   config: {
     'iceServers': [
