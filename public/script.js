@@ -22,7 +22,7 @@ showChat.addEventListener("click", () => {
 const user = prompt("Enter your name");
 
 var peer = new Peer({
-  host: 'https://imingle.onrender.com',
+  host: 'imingle.onrender.com',
   port: 443,
   path: '/peerjs',
   config: {
